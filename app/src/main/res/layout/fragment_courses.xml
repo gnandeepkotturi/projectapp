@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:id="@+id/cor_layout"
+    tools:context=".Courses">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses Offered"
+        android:textSize="35dp"
+        android:textStyle="bold|italic|normal"
+        android:textColor="@color/cardview_dark_background"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B-TECH"
+        android:textSize="20dp"
+        android:background="@drawable/textview"
+        android:autoLink="all"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/btech"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MBA"
+        android:textSize="20dp"
+        android:background="@drawable/textview"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:id="@+id/mba"
+        android:textColor="#000000"
+        android:autoLink="all"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIPLOMA"
+        android:id="@+id/diploma"
+        android:autoLink="all"
+
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/textview"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:id="@+id/loc"
+        android:gravity="center"
+        android:textColor="@color/cardview_dark_background"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/display_cor_ist"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>

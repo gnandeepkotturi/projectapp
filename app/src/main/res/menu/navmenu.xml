@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Home"
+    android:id="@+id/home"
+    android:icon="@drawable/ic_home_black_24dp"
+    />
+    <item
+        android:title="Courses"
+        android:id="@+id/courses"
+        />
+    <item
+        android:title="Facultinfo"
+        android:id="@+id/facultyinfo"
+        />
+    <item
+        android:title="Results"
+        android:id="@+id/results"
+
+
+        />
+    <item
+        android:title="Feedback"
+        android:id="@+id/feedback"
+        />
+    <item
+        android:title="Complaints"
+        android:id="@+id/complaints"
+        />
+    <item
+        android:title="Notification"
+        android:id="@+id/notification"
+        />
+    <item
+        android:title="Acheivements"
+        android:id="@+id/Acheivements"
+        />
+    <item
+        android:title="Events"
+        android:id="@+id/events"
+        />    <item
+
+        android:title="Admin login"
+        android:id="@+id/adminlogin"
+        />
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        />
+
+</menu>
